@@ -7,8 +7,7 @@
 // 2 - Make new ItemCreator using the weapon type
 // 3 - Call display method
 
-
-
+//MAIN
 Sword sword = new Sword();
 ItemCreator <Sword> sword1 = new ItemCreator<Sword>(sword, ConsoleColor.Red);
 sword1.Display();
@@ -21,6 +20,7 @@ Axe axe = new Axe();
 ItemCreator<Axe> axe1 = new ItemCreator<Axe>(axe, ConsoleColor.Yellow);
 axe1.Display();
 
+//CLASSES
 // <TItem> is used to pass class types into ItemCreator Class
 public class ItemCreator<TItem>
 {
